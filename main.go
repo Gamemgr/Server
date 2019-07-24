@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/gamemgr/server/trunk"
+)
 
 func main() {
-	fmt.Println("server")
+	trunk.Init()
 }
